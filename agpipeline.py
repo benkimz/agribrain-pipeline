@@ -8,7 +8,7 @@ from agscripts import kgraph
 from transformers import pipeline, set_seed
 from transformers import BartTokenizer, BartForConditionalGeneration
 
-nltk.download("stopwords")
+# nltk.download("stopwords")
 
 AG_KMODEL_NAME = "./kmodels/K-files-cluster/"
 
