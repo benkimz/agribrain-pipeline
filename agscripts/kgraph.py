@@ -4,10 +4,14 @@ import glob
 import json
 import tqdm
 import spacy
+import spacy.cli
 import string
 import pickle
 import numpy as np
 import tensorflow as tf
+
+import nltk
+nltk.data.path.append("/usr/share/nltk_data")
 
 from textblob import TextBlob
 from nltk.corpus import wordnet
@@ -17,6 +21,8 @@ from nltk.tokenize import word_tokenize
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.feature_extraction.text import TfidfVectorizer
 
+spacy.cli.download("en")
+spacy.cli.download("en_core_web_sm")
 
 nlp = spacy.load('en_core_web_sm')
 stop_words = set(stopwords.words('english'))  
