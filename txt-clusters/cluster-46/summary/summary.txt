@@ -1,0 +1,1 @@
+Rainwater harvesting systems store and release rainfall for future use. The collection and conveyance system consists of gutters, downspouts, and pipes that channel rainfall into storage tanks. The Cistern Design Spreadsheet assumes a filter efficiency rate of 95% for the SWRv design storm.
